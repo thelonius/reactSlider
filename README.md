@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -2446,4 +2445,3 @@ If you have ideas for more “How To” recipes that should be on this page, [le
 =======
 # reactSlider
 sandbox with react
->>>>>>> 918f74840309852bc3688454332463078070f54b
