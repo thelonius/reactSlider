@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-// import '../App.css';
+import '../App.css';
 
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
+
+import Slider from './Slider';
 
 const Repair = styled.div`
 	color: #ffffff;
@@ -34,6 +36,9 @@ const CallBtn = styled.button`
 	font-size: 18px;
 	font-weight: bold;
 	margin-top: 32px;
+	&:hover {
+		background-color: blue;
+	}
 `
 
 class Main extends React.Component {
@@ -54,7 +59,8 @@ class Main extends React.Component {
 						Отправить заявку!
 					</CallBtn>
 				</Col>
-				<Col lg={6} glOffset={1}>
+				<Col lg={6} gloffset={1}>
+					<Slider />
 				</Col>
 			</Row>
 		)
